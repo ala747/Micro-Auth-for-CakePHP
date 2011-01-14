@@ -1,4 +1,4 @@
-#auth sql generated on: 2011-01-13 14:57:20 : 1294927040
+#auth sql generated on: 2011-01-14 09:57:30 : 1294995450
 
 DROP TABLE IF EXISTS `tokens`;
 DROP TABLE IF EXISTS `users`;
@@ -19,7 +19,6 @@ CREATE TABLE `users` (
         `created` datetime DEFAULT NULL,
         `modified` datetime DEFAULT NULL,
         `lastlogin` datetime DEFAULT NULL,
-        `name` varchar(100) CHARACTER SET utf8 COLLATE utf8_general_ci DEFAULT NULL,
         `email` varchar(200) CHARACTER SET utf8 COLLATE utf8_general_ci DEFAULT NULL,
         `username` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci DEFAULT NULL,
         `password` varchar(42) CHARACTER SET utf8 COLLATE utf8_general_ci DEFAULT NULL, PRIMARY KEY  (`id`),
